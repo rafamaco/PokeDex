@@ -69,7 +69,7 @@ const renderPokemon = async (pokemon) => {
     else
     {
         pokemonImage.style.display = 'none'; // Hide the image if pokemon is not found
-        pokemonName.innerHTML = "Pokemon not found";
+        pokemonName.innerHTML = "Not found";
         pokemonNumber.innerHTML = '';
     }
 
