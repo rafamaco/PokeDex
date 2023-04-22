@@ -53,7 +53,7 @@ const renderPokemon = async (pokemon) => {
         firstLetterUp = data['types']['0']['type']['name'];
         firstLetterUp3 = firstLetterUp.charAt(0).toUpperCase() + firstLetterUp.slice(1);
         pokemonType.innerHTML = 'Type: ' + firstLetterUp3;
-        pokemonWeight.innerHTML = 'Weight: ' + (data.weight/10) + ' Kg';
+        pokemonWeight.innerHTML = 'Weight: ' + (data.weight/10) + ' kg';
         pokemonHeight.innerHTML = 'Height: ' + (data.height/10) + ' m';
         if (data.id < 650)
         {
