@@ -2,32 +2,56 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rafael Magalhaes">
+
+    <!-- Links -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./icons/pokeball-16x16.png" type="image/x-icon">
-    <title>PokeDex - RM</title>
+
+    <!-- Main Script JS -->
+    <script defer src="./js/script.js"></script>
+
+    <title>PokeDex - RMC</title>
+
 </head>
 
 <body>
 
     <main>
 
-        <img src="" alt="pokemon" class="pokemon-image">
+        <img src="#" alt="pokemon" class="pokemon-image">
+
+        <h1 class="pokemon-n">
+            <span class="pokemon-number"></span>
+        </h1>
 
         <h1 class="pokemon-data">
-            <span class="pokemon-number">6 - </span>
-            <span class="pokemon-name">charizard</span>
+            <span class="pokemon-name"></span>
         </h1>
+
+        <div class="pokemon-content">
+            <span class="pokemon-moves">Moves: </span>
+            <span class="pokemon-type">Type: </span>
+            <span class="pokemon-weight">Weigth: </span>
+            <span class="pokemon-height">Height: </span>
+        </div>
+
 
         <form class="form">
             <input type="search" class="pokemon-search" placeholder="Name or Number" required>
         </form>
 
         <div class="buttons">
-            <button class="button btn-prev">Prev &lt;</button>
-            <button class="button btn-next">Next &gt;</button>
+            <button class="button btn-prev">&lt;</button>
+            <button class="button btn-next">&gt;</button>
+        </div>
+
+        <div class="buttons-move">
+            <button class="buttonMove btn-prev-move">&lt;</button>
+            <button class="buttonMove btn-next-move">&gt;</button>
         </div>
 
         <img src="/img/pokedex.png" alt="PokeDex" class="pokedex">
